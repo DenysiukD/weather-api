@@ -5,12 +5,11 @@ padding: 0;
 }
 
 .logo-photo{
-  
+  left: 0px;
+  top: 0px;
     position: absolute;
-    left: 10px;
-    top: 10px;
-height: 85px;
-width: 120px;
+height: 155px;
+width: 200px;
 }
 
 header{
@@ -29,6 +28,7 @@ font-size: 50px;
 text-align: center;
 color: #dc56c5;
 width: 600px;
+margin-top: 30px;
 
 
 }
@@ -38,16 +38,82 @@ width: 270px;
 height: 40px;
 backdrop-filter: blur(20px);
 background: rgba(255, 255, 255, 0.2);
+padding-left: 30px;
+color: white;
+margin-top: 70px;
+}
+input:focus-visible{
+    outline: none;
+    border: none;
+}
+
+.search::placeholder{
+    color: #939393;
 }
 .cards {
+    padding: 20px 173px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
 }
 .card {
+       display: flex;
+    color: white;
+        flex-direction: column;
+    align-items: center;
 }
 .card-poster {
 }
 .card-title {
+    color: #dc56c5;
 }
 .card-date {
 }
 .card-location {
+    font-weight: 800;
+}
+
+body{
+    background-color: black;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.pagination-page{
+    color: white;
+    transition: all .4s;
+    cursor: pointer;
+    background: none;
+    border: none;
+
+}
+
+.active-page{
+    color: #dc56c5;
+    border: 1px solid #dc56c5;
+    padding: 5px 12px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+
+    background: white;
 }
