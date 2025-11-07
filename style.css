@@ -62,7 +62,7 @@ input:focus-visible {
 .cards {
     padding: 20px 173px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -72,6 +72,7 @@ input:focus-visible {
     color: white;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .card-poster {}
@@ -122,6 +123,7 @@ body {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
+    scale: 0;
     justify-content: center;
     z-index: 1;
     align-items: center;
@@ -154,6 +156,8 @@ body {
     font-size: 45px;
     
 }
+
+
 
 .modal-logo {
     height: 100px;
@@ -212,4 +216,8 @@ color: #dc56c5;
 font-weight: 400;
 font-size: 18px;
 color: #0e0e0e;
+}
+
+.modal-open{
+scale: 1;
 }
