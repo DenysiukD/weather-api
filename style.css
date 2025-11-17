@@ -1,10 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
-button{
+button {
     background: none;
     border: none;
 }
@@ -19,7 +18,6 @@ button{
 
 header {
     height: 446px;
-
     background: url(pic.png) no-repeat center/cover;
     display: flex;
     flex-direction: column;
@@ -35,8 +33,6 @@ header {
     color: #dc56c5;
     width: 600px;
     margin-top: 30px;
-
-
 }
 
 .search {
@@ -64,7 +60,6 @@ input:focus-visible {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .card {
@@ -104,7 +99,6 @@ body {
     cursor: pointer;
     background: none;
     border: none;
-
 }
 
 .active-page {
@@ -127,7 +121,7 @@ body {
     justify-content: center;
     z-index: 1;
     align-items: center;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 .modal {
@@ -139,13 +133,9 @@ body {
     padding: 30px 62px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
-      max-width: 930px;
-      row-gap: 20px;
-   
-    
+    max-width: 930px;
+    row-gap: 20px;
 }
-
-
 
 .modal-close {
     color: #4c00fe;
@@ -154,10 +144,7 @@ body {
     cursor: pointer;
     position: absolute;
     font-size: 45px;
-    
 }
-
-
 
 .modal-logo {
     height: 100px;
@@ -171,53 +158,50 @@ body {
     justify-content: space-between;
     align-items: center;
     column-gap: 60px;
-   
 }
 
-.modal-box-author{
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-color: #4c00fe;
-border: 1px solid #4C00FE;
-width: 255px;
-height: 40px;
-border-radius: 10px;
+.modal-box-author {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #4c00fe;
+    border: 1px solid #4C00FE;
+    width: 255px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .modal-poster {
     width: 360px;
     height: 640px;
-
 }
 
 .modal-box-data {
     width: 450px;
-
 }
 
-.modal-box-data-buy{
-background: #4C00FE;
-border-radius: 5px;
-width: 145px;
-height: 40px;
-color: white;
-
+.modal-box-data-buy {
+    background: #4C00FE;
+    border-radius: 5px;
+    width: 145px;
+    height: 40px;
+    color: white;
 }
 
-.modal-box-data-title{
+.modal-box-data-title {
     font-family: var(--font-family);
-font-weight: 600;
-font-size: 24px;
-color: #dc56c5;
-}
-.modal-box-data-desc{
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-color: #0e0e0e;
+    font-weight: 600;
+    font-size: 24px;
+    color: #dc56c5;
 }
 
-.modal-open{
-scale: 1;
+.modal-box-data-desc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #0e0e0e;
+}
+
+.modal-open {
+    scale: 1;
 }
