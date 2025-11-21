@@ -60,6 +60,7 @@ input:focus-visible {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -68,9 +69,12 @@ input:focus-visible {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    width: 200px;
 }
 
-.card-poster {}
+.card-poster {
+    width: 100%;
+}
 
 .card-title {
     color: #dc56c5;
